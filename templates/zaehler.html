@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Zähler</title>
+</head>
+<body>
+    <h1>Zählerliste</h1>
+
+    <form method="GET" action="/zaehler/suche">
+        <input type="text" name="query" placeholder="Nach Zähler-ID oder Typ suchen..." value="{{ query }}">
+        <button type="submit">🔍 Suchen</button>
+    </form>
+
+    <ul>
+        {% for z in zaehler %}
+            <li>ID: {{ z.id }} - Typ: {{ z.typ }}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="/zaehler/hinzufuegen">+ Neuen Zähler hinzufügen</a>
+    <br>
+    <a href="/">Zurück</a>
+</body>
+</html>

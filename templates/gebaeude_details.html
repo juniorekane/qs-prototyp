@@ -1,0 +1,22 @@
+<h1>Details zu {{ gebaeude.name }}</h1>
+
+<p><strong>Adresse:</strong> {{ gebaeude.adresse }}</p>
+<p><strong>Anzahl der Eingänge:</strong> {{ gebaeude.eingang_anzahl }}</p>
+
+<h2>Verbrauchsinformationen</h2>
+
+{% if no_data %}
+    <p>⚠️ Keine Verbrauchsdaten für dieses Gebäude verfügbar.</p>
+{% else %}
+    {% set safe_gebaeude_name = gebaeude.name | replace(" ", "_") %}
+    <img src="/static/verbrauch_aktuell_{{ safe_gebaeude_name }}.png" alt="Verbrauchsanzeige">
+{% endif %}
+
+<div style="margin-top: 20px;">
+    <button><a href="/gebaeude/bearbeiten/{{ gebaeude.id }}" class="button">✏️ Bearbeiten</a></button>
+    <form action="/gebaeude/loeschen/{{ gebaeude.id }}" method="POST" style="display:inline;">
+        <button type="submit" onclick="return confirm('Bist du sicher, dass du dieses Gebäude löschen möchtest?')">🗑️ Löschen</button>
+    </form>
+</div>
+
+<a href="/gebaeude">🔙 Zurück zur Gebäude-Übersicht</a>

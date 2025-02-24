@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Ablesungen</title>
+</head>
+<body>
+    <h1>Liste der Ablesewerte</h1>
+
+    <form method="GET" action="/ablesung/suche">
+        <input type="text" name="query" placeholder="Nach Zähler-ID suchen..." value="{{ query }}">
+        <button type="submit">🔍 Suchen</button>
+    </form>
+
+    <br>
+    <br>
+    <table border="1">
+        <tr>
+            <th>Zähler-ID</th>
+            <th>Datum</th>
+            <th>Ablesewert</th>
+            <th>Ableser</th>
+        </tr>
+        {% for a in ablesungen %}
+        <tr>
+            <td>{{ a.zaehler_id }}</td>
+            <td>{{ a.datum }}</td>
+            <td>{{ a.wert }}</td>
+            <td>{{ a.ableser }}</td>  <!-- Ableser jetzt sichtbar -->
+        </tr>
+        {% endfor %}
+    </table>
+    
+
+    <br>
+    <br>
+    <a href="/ablesung/hinzufuegen">Neue Ablesung hinzufügen</a>
+    <br>
+    <br>
+    <a href="/">Zurück</a>
+</body>
+</html>
