@@ -1,0 +1,48 @@
+[
+    {
+        "zaehler_id": "123-2024-4567",
+        "datum": "2024-06-01",
+        "wert": 150,
+        "gebaeude_id": 1
+    },
+    {
+        "zaehler_id": "123-2024-4567",
+        "datum": "2024-07-01",
+        "wert": 180,
+        "gebaeude_id": 1
+    },
+    {
+        "zaehler_id": "123-2024-4567",
+        "datum": "2024-08-01",
+        "wert": 210,
+        "gebaeude_id": 1
+    },
+    {
+        "zaehler_id": "987-2024-6543",
+        "datum": "2025-02-01",
+        "wert": 250,
+        "gebaeude_id": 2
+    },
+    {
+        "zaehler_id": "987-2024-6543",
+        "datum": "2025-02-15",
+        "wert": 270,
+        "gebaeude_id": 2
+    },
+    {
+        "zaehler_id": "987-2024-6543",
+        "datum": "2025-02-23",
+        "wert": 300,
+        "gebaeude_id": 2
+    },
+    {"zaehler_id": "1-2025-5487", "datum": "2024-02-25", "wert": 191, "gebaeude_id": 1},
+    {"zaehler_id": "1-2025-5487", "datum": "2024-03-26", "wert": 247, "gebaeude_id": 1},
+    {"zaehler_id": "1-2025-5487", "datum": "2024-04-25", "wert": 469, "gebaeude_id": 1},
+    {"zaehler_id": "1-2025-5487", "datum": "2024-05-25", "wert": 87, "gebaeude_id": 1},
+    {"zaehler_id": "1-2025-5487", "datum": "2024-06-24", "wert": 247, "gebaeude_id": 1},
+    {"zaehler_id": "1-2025-9355", "datum": "2024-02-25", "wert": 658, "gebaeude_id": 1},
+    {"zaehler_id": "1-2025-9355", "datum": "2024-03-26", "wert": 353, "gebaeude_id": 1},
+    {"zaehler_id": "1-2025-9355", "datum": "2024-04-25", "wert": 868, "gebaeude_id": 1},
+    {"zaehler_id": "1-2025-9355", "datum": "2024-05-25", "wert": 923, "gebaeude_id": 1},
+    {"zaehler_id": "1-2025-9355", "datum": "2024-06-24", "wert": 617, "gebaeude_id": 1}
+]

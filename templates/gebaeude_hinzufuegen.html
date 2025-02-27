@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Gebäude hinzufügen</title>
+</head>
+<body>
+    <h1>Neues Gebäude hinzufügen</h1>
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    {% if success %}
+        <p style="color: green;">{{ success }}</p>
+    {% endif %}
+
+    <form method="POST">
+        <label>Name des Gebäudes:</label>
+        <input type="text" name="name" required>
+        <br>
+        <label>Adresse:</label>
+        <input type="text" name="adresse" required>
+        <br>
+        <label>Anzahl der Eingänge:</label>
+        <input type="number" name="eingang_anzahl" min="1" required>
+        <br>
+        <button type="submit">Speichern</button>
+    </form>
+    <br>
+    <br>
+    <a href="/gebaeude">Zurück zur Gebäudeübersicht</a>
+</body>
+</html>

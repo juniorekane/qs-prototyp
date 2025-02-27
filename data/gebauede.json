@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Hochhaus A",
+        "adresse": "Musterstra\u00dfe 10",
+        "eingang_anzahl": 3
+    },
+    {
+        "id": 2,
+        "name": "Wohnkomplex B",
+        "adresse": "Meisenweg 5",
+        "eingang_anzahl": 2
+    },
+    {"id": 3, "name": "Gebäude 1", "adresse": "Straße 1, Stadt", "eingang_anzahl": 5},
+    {"id": 4, "name": "Gebäude 2", "adresse": "Straße 2, Stadt", "eingang_anzahl": 3},
+    {"id": 5, "name": "Gebäude 3", "adresse": "Straße 3, Stadt", "eingang_anzahl": 4}
+]

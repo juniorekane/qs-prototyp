@@ -1,0 +1,23 @@
+<h1>Verbrauchsanzeige</h1>
+
+<!-- Gebäude-Auswahl -->
+<form method="GET">
+    <label>Gebäude auswählen:</label>
+    <select name="gebaeude_id" onchange="this.form.submit()">
+        <option value="" selected disabled>-- Gebäude wählen --</option>
+        {% for g in gebaeude %}
+            <option value="{{ g.id }}" {% if g.id == selected_gebaeude %}selected{% endif %}>
+                {{ g.name }} ({{ g.adresse }})
+            </option>
+        {% endfor %}
+    </select>
+</form>
+
+{% if no_data %}
+    <p>⚠️ Keine Verbrauchsdaten für das ausgewählte Gebäude verfügbar.</p>
+{% else %}
+    {% set safe_gebaeude_name = gebaeude_name| replace(" ", "_") %}
+    <img src="/static/verbrauch_historie_{{ safe_gebaeude_name }}_{{ current_date }}.png" alt="Verbrauchsanzeige">
+{% endif %}
+
+<a href="/">🔙 Zurück</a>

@@ -1,0 +1,25 @@
+[
+    {
+        "id": "123-2024-4567",
+        "gebaeude_id": 1,
+        "typ": "Strom"
+    },
+    {
+        "id": "987-2024-6543",
+        "gebaeude_id": 2,
+        "typ": "Gas"
+    },
+    {
+        "id": "1-2025-7989",
+        "gebaeude_id": 1,
+        "typ": "Gas"
+    },
+    {"id": "1-2025-5487", "gebaeude_id": 1, "typ": "Strom"},
+    {"id": "2-2025-1789", "gebaeude_id": 2, "typ": "Strom"},
+    {"id": "3-2025-4687", "gebaeude_id": 3, "typ": "Gas"},
+    {"id": "1-2025-9355", "gebaeude_id": 1, "typ": "Strom"},
+    {"id": "1-2025-1447", "gebaeude_id": 1, "typ": "Wasser"},
+    {"id": "1-2025-8154", "gebaeude_id": 1, "typ": "Strom"},
+    {"id": "1-2025-9645", "gebaeude_id": 1, "typ": "Gas"},
+    {"id": "2-2025-3321", "gebaeude_id": 2, "typ": "Wasser"}
+]

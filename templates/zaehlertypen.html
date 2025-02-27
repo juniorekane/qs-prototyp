@@ -1,0 +1,15 @@
+<h1>Verfügbare Zählertypen</h1>
+
+<ul>
+    {% for typ in zaehlertypen %}
+        <li>{{ typ }}</li>
+    {% endfor %}
+</ul>
+
+<form method="POST">
+    <label>Neuen Zählertyp hinzufügen:</label>
+    <input type="text" name="typ" required>
+    <button type="submit">Speichern</button>
+</form>
+
+<a href="/">Zurück</a>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Ablesung hinzufügen</title>
+</head>
+<body>
+    <h1>Neue Ablesung erfassen</h1>
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    {% if success %}
+        <p style="color: green;">{{ success }}</p>
+    {% endif %}
+
+    <form method="POST">
+        <label>Gebäude auswählen:</label>
+        <select id="gebaeude_select" name="gebaeude_id" required>
+            <option value="" selected disabled>-- Gebäude wählen --</option>
+            {% for g in gebaeude %}
+                <option value="{{ g.id }}">{{ g.name }} ({{ g.adresse }})</option>
+            {% endfor %}
+        </select>
+        <br>
+    
+        <label>Zähler auswählen:</label>
+        <select id="zaehler_select" name="zaehler_id" required>
+            <option value="" selected disabled>-- Zähler wählen --</option>
+            {% for z in zaehler %}
+                <option value="{{ z.id }}" data-gebaeude="{{ z.gebaeude_id }}">{{ z.id }} ({{ z.typ }})</option>
+            {% endfor %}
+        </select>
+        <br>
+    
+        <label>Ablesedatum:</label>
+        <input type="date" name="datum" required>
+        <br>
+    
+        <label>Ablesewert:</label>
+        <input type="number" name="wert" required>
+        <br>
+    
+        <label>Ableser:</label>
+        <select name="ableser">
+            <option value="Hauswart">Hauswart</option>
+            <option value="Mieter">Mieter</option>
+            <option value="Energieversorger">Energieversorger</option>
+            <option value="Unbekannt" selected>Unbekannt</option>
+        </select>
+        <br>
+    
+        <button type="submit">Speichern</button>
+    </form>
+    <br>
+    <br>
+    <a href="/ablesung">Zurück zur Ablesungsübersicht</a>
+        <!-- JavaScript: Zähler für das gewählte Gebäude filtern -->
+        <script>
+            document.getElementById("gebaeude_select").addEventListener("change", function() {
+                let selectedBuilding = this.value;
+                let zaehlerOptions = document.getElementById("zaehler_select").options;
+            
+                for (let i = 1; i < zaehlerOptions.length; i++) {  // Start bei 1, um "-- Zähler wählen --" zu behalten
+                    let option = zaehlerOptions[i];
+                    option.hidden = option.getAttribute("data-gebaeude") !== selectedBuilding;
+                }
+            });
+    </script>
+</body>
+</html>
