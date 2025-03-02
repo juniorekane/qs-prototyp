@@ -1,0 +1,14 @@
+[
+    {
+        "zaehler_id": "1-2025-5487",
+        "datum": "2024-06-01",
+        "wert": 150,
+        "gebaeude_id": 1
+    },
+    {
+        "zaehler_id": "2-2025-1789",
+        "datum": "2024-06-01",
+        "wert": 300,
+        "gebaeude_id": 2
+    }
+]

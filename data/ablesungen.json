@@ -35,14 +35,711 @@
         "wert": 300,
         "gebaeude_id": 2
     },
-    {"zaehler_id": "1-2025-5487", "datum": "2024-02-25", "wert": 191, "gebaeude_id": 1},
-    {"zaehler_id": "1-2025-5487", "datum": "2024-03-26", "wert": 247, "gebaeude_id": 1},
-    {"zaehler_id": "1-2025-5487", "datum": "2024-04-25", "wert": 469, "gebaeude_id": 1},
-    {"zaehler_id": "1-2025-5487", "datum": "2024-05-25", "wert": 87, "gebaeude_id": 1},
-    {"zaehler_id": "1-2025-5487", "datum": "2024-06-24", "wert": 247, "gebaeude_id": 1},
-    {"zaehler_id": "1-2025-9355", "datum": "2024-02-25", "wert": 658, "gebaeude_id": 1},
-    {"zaehler_id": "1-2025-9355", "datum": "2024-03-26", "wert": 353, "gebaeude_id": 1},
-    {"zaehler_id": "1-2025-9355", "datum": "2024-04-25", "wert": 868, "gebaeude_id": 1},
-    {"zaehler_id": "1-2025-9355", "datum": "2024-05-25", "wert": 923, "gebaeude_id": 1},
-    {"zaehler_id": "1-2025-9355", "datum": "2024-06-24", "wert": 617, "gebaeude_id": 1}
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-02-27",
+        "wert": 101,
+        "ableser": "Energieversorger"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 110,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 111,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 112,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 113,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 114,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 115,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 116,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 117,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 118,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 119,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 120,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 121,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 122,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 123,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 124,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 125,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 126,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 127,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 128,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 129,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 130,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 131,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 132,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 133,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 134,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 135,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 136,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 137,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 138,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 139,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 140,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 141,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 142,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 143,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 144,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 145,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 146,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 147,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 148,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 149,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 150,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 151,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 152,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 153,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 154,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 155,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 156,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 157,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 158,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 159,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 160,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 161,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 162,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 163,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 164,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 165,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 166,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 167,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 168,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 169,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 170,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 171,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 172,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 173,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 174,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 175,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 176,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 177,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 178,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 179,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 180,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 181,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 182,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 183,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 184,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 185,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 186,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 187,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 188,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 189,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 190,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 191,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 192,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 193,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 194,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 195,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 196,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 197,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 198,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 199,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 200,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 201,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 202,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 203,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 204,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 205,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 206,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 207,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 208,
+        "ableser": "Mieter"
+    },
+    {
+        "gebaeude_id": "1",
+        "zaehler_id": "1-2025-5487",
+        "datum": "2025-03-01",
+        "wert": 209,
+        "ableser": "Mieter"
+    }
 ]
