@@ -12,14 +12,2516 @@
     {
         "id": "1-2025-7989",
         "gebaeude_id": 1,
-        "typ": "Gas"
+        "typ": "Strom"
     },
-    {"id": "1-2025-5487", "gebaeude_id": 1, "typ": "Strom"},
-    {"id": "2-2025-1789", "gebaeude_id": 2, "typ": "Strom"},
-    {"id": "3-2025-4687", "gebaeude_id": 3, "typ": "Gas"},
-    {"id": "1-2025-9355", "gebaeude_id": 1, "typ": "Strom"},
-    {"id": "1-2025-1447", "gebaeude_id": 1, "typ": "Wasser"},
-    {"id": "1-2025-8154", "gebaeude_id": 1, "typ": "Strom"},
-    {"id": "1-2025-9645", "gebaeude_id": 1, "typ": "Gas"},
-    {"id": "2-2025-3321", "gebaeude_id": 2, "typ": "Wasser"}
+    {
+        "id": "1-2025-7931",
+        "gebaeude_id": 1,
+        "typ": "Strom"
+    },
+    {
+        "id": "1-2025-5487",
+        "gebaeude_id": 1,
+        "typ": "Strom"
+    },
+    {
+        "id": "1-2025-5123",
+        "gebaeude_id": 1,
+        "typ": "Strom"
+    },
+    {
+        "id": "1-2025-3633",
+        "gebaeude_id": 1,
+        "typ": "Strom"
+    },
+    {
+        "id": "2-2025-7172",
+        "gebaeude_id": 2,
+        "typ": "Strom"
+    },
+    {
+        "id": "3-2025-1979",
+        "gebaeude_id": 3,
+        "typ": "Strom"
+    },
+    {
+        "id": "4-2025-8245",
+        "gebaeude_id": 4,
+        "typ": "Strom"
+    },
+    {
+        "id": "5-2025-9409",
+        "gebaeude_id": 5,
+        "typ": "Strom"
+    },
+    {
+        "id": "6-2025-1241",
+        "gebaeude_id": 6,
+        "typ": "Strom"
+    },
+    {
+        "id": "7-2025-4152",
+        "gebaeude_id": 7,
+        "typ": "Strom"
+    },
+    {
+        "id": "8-2025-1995",
+        "gebaeude_id": 8,
+        "typ": "Strom"
+    },
+    {
+        "id": "9-2025-1405",
+        "gebaeude_id": 9,
+        "typ": "Strom"
+    },
+    {
+        "id": "10-2025-5306",
+        "gebaeude_id": 10,
+        "typ": "Strom"
+    },
+    {
+        "id": "11-2025-1331",
+        "gebaeude_id": 11,
+        "typ": "Strom"
+    },
+    {
+        "id": "12-2025-2573",
+        "gebaeude_id": 12,
+        "typ": "Strom"
+    },
+    {
+        "id": "13-2025-7430",
+        "gebaeude_id": 13,
+        "typ": "Strom"
+    },
+    {
+        "id": "14-2025-4562",
+        "gebaeude_id": 14,
+        "typ": "Strom"
+    },
+    {
+        "id": "15-2025-5276",
+        "gebaeude_id": 15,
+        "typ": "Strom"
+    },
+    {
+        "id": "16-2025-9167",
+        "gebaeude_id": 16,
+        "typ": "Strom"
+    },
+    {
+        "id": "17-2025-6673",
+        "gebaeude_id": 17,
+        "typ": "Strom"
+    },
+    {
+        "id": "18-2025-9287",
+        "gebaeude_id": 18,
+        "typ": "Strom"
+    },
+    {
+        "id": "19-2025-7295",
+        "gebaeude_id": 19,
+        "typ": "Strom"
+    },
+    {
+        "id": "20-2025-9314",
+        "gebaeude_id": 20,
+        "typ": "Strom"
+    },
+    {
+        "id": "21-2025-5652",
+        "gebaeude_id": 21,
+        "typ": "Strom"
+    },
+    {
+        "id": "22-2025-2046",
+        "gebaeude_id": 22,
+        "typ": "Strom"
+    },
+    {
+        "id": "23-2025-8163",
+        "gebaeude_id": 23,
+        "typ": "Strom"
+    },
+    {
+        "id": "24-2025-3463",
+        "gebaeude_id": 24,
+        "typ": "Strom"
+    },
+    {
+        "id": "25-2025-9845",
+        "gebaeude_id": 25,
+        "typ": "Strom"
+    },
+    {
+        "id": "26-2025-4788",
+        "gebaeude_id": 26,
+        "typ": "Strom"
+    },
+    {
+        "id": "27-2025-3628",
+        "gebaeude_id": 27,
+        "typ": "Strom"
+    },
+    {
+        "id": "28-2025-9462",
+        "gebaeude_id": 28,
+        "typ": "Strom"
+    },
+    {
+        "id": "29-2025-2070",
+        "gebaeude_id": 29,
+        "typ": "Strom"
+    },
+    {
+        "id": "30-2025-2722",
+        "gebaeude_id": 30,
+        "typ": "Strom"
+    },
+    {
+        "id": "31-2025-8974",
+        "gebaeude_id": 31,
+        "typ": "Strom"
+    },
+    {
+        "id": "32-2025-3175",
+        "gebaeude_id": 32,
+        "typ": "Strom"
+    },
+    {
+        "id": "33-2025-7758",
+        "gebaeude_id": 33,
+        "typ": "Strom"
+    },
+    {
+        "id": "34-2025-5211",
+        "gebaeude_id": 34,
+        "typ": "Strom"
+    },
+    {
+        "id": "35-2025-9176",
+        "gebaeude_id": 35,
+        "typ": "Strom"
+    },
+    {
+        "id": "36-2025-5868",
+        "gebaeude_id": 36,
+        "typ": "Strom"
+    },
+    {
+        "id": "37-2025-8077",
+        "gebaeude_id": 37,
+        "typ": "Strom"
+    },
+    {
+        "id": "38-2025-8200",
+        "gebaeude_id": 38,
+        "typ": "Strom"
+    },
+    {
+        "id": "39-2025-5818",
+        "gebaeude_id": 39,
+        "typ": "Strom"
+    },
+    {
+        "id": "40-2025-2740",
+        "gebaeude_id": 40,
+        "typ": "Strom"
+    },
+    {
+        "id": "41-2025-3863",
+        "gebaeude_id": 41,
+        "typ": "Strom"
+    },
+    {
+        "id": "42-2025-5273",
+        "gebaeude_id": 42,
+        "typ": "Strom"
+    },
+    {
+        "id": "43-2025-5839",
+        "gebaeude_id": 43,
+        "typ": "Strom"
+    },
+    {
+        "id": "44-2025-4081",
+        "gebaeude_id": 44,
+        "typ": "Strom"
+    },
+    {
+        "id": "45-2025-7328",
+        "gebaeude_id": 45,
+        "typ": "Strom"
+    },
+    {
+        "id": "46-2025-5732",
+        "gebaeude_id": 46,
+        "typ": "Strom"
+    },
+    {
+        "id": "47-2025-1855",
+        "gebaeude_id": 47,
+        "typ": "Strom"
+    },
+    {
+        "id": "48-2025-2694",
+        "gebaeude_id": 48,
+        "typ": "Strom"
+    },
+    {
+        "id": "49-2025-5959",
+        "gebaeude_id": 49,
+        "typ": "Strom"
+    },
+    {
+        "id": "50-2025-4911",
+        "gebaeude_id": 50,
+        "typ": "Strom"
+    },
+    {
+        "id": "51-2025-7190",
+        "gebaeude_id": 51,
+        "typ": "Strom"
+    },
+    {
+        "id": "52-2025-4576",
+        "gebaeude_id": 52,
+        "typ": "Strom"
+    },
+    {
+        "id": "53-2025-6534",
+        "gebaeude_id": 53,
+        "typ": "Strom"
+    },
+    {
+        "id": "54-2025-1179",
+        "gebaeude_id": 54,
+        "typ": "Strom"
+    },
+    {
+        "id": "55-2025-2542",
+        "gebaeude_id": 55,
+        "typ": "Strom"
+    },
+    {
+        "id": "56-2025-1235",
+        "gebaeude_id": 56,
+        "typ": "Strom"
+    },
+    {
+        "id": "57-2025-5823",
+        "gebaeude_id": 57,
+        "typ": "Strom"
+    },
+    {
+        "id": "58-2025-2938",
+        "gebaeude_id": 58,
+        "typ": "Strom"
+    },
+    {
+        "id": "59-2025-3864",
+        "gebaeude_id": 59,
+        "typ": "Strom"
+    },
+    {
+        "id": "60-2025-3258",
+        "gebaeude_id": 60,
+        "typ": "Strom"
+    },
+    {
+        "id": "61-2025-4226",
+        "gebaeude_id": 61,
+        "typ": "Strom"
+    },
+    {
+        "id": "62-2025-9819",
+        "gebaeude_id": 62,
+        "typ": "Strom"
+    },
+    {
+        "id": "63-2025-3374",
+        "gebaeude_id": 63,
+        "typ": "Strom"
+    },
+    {
+        "id": "64-2025-9264",
+        "gebaeude_id": 64,
+        "typ": "Strom"
+    },
+    {
+        "id": "65-2025-1793",
+        "gebaeude_id": 65,
+        "typ": "Strom"
+    },
+    {
+        "id": "66-2025-3439",
+        "gebaeude_id": 66,
+        "typ": "Strom"
+    },
+    {
+        "id": "67-2025-6026",
+        "gebaeude_id": 67,
+        "typ": "Strom"
+    },
+    {
+        "id": "68-2025-4505",
+        "gebaeude_id": 68,
+        "typ": "Strom"
+    },
+    {
+        "id": "69-2025-7630",
+        "gebaeude_id": 69,
+        "typ": "Strom"
+    },
+    {
+        "id": "70-2025-6354",
+        "gebaeude_id": 70,
+        "typ": "Strom"
+    },
+    {
+        "id": "71-2025-6701",
+        "gebaeude_id": 71,
+        "typ": "Strom"
+    },
+    {
+        "id": "72-2025-2202",
+        "gebaeude_id": 72,
+        "typ": "Strom"
+    },
+    {
+        "id": "73-2025-3108",
+        "gebaeude_id": 73,
+        "typ": "Strom"
+    },
+    {
+        "id": "74-2025-2668",
+        "gebaeude_id": 74,
+        "typ": "Strom"
+    },
+    {
+        "id": "75-2025-5854",
+        "gebaeude_id": 75,
+        "typ": "Strom"
+    },
+    {
+        "id": "76-2025-1236",
+        "gebaeude_id": 76,
+        "typ": "Strom"
+    },
+    {
+        "id": "77-2025-4174",
+        "gebaeude_id": 77,
+        "typ": "Strom"
+    },
+    {
+        "id": "78-2025-8951",
+        "gebaeude_id": 78,
+        "typ": "Strom"
+    },
+    {
+        "id": "79-2025-7535",
+        "gebaeude_id": 79,
+        "typ": "Strom"
+    },
+    {
+        "id": "80-2025-3835",
+        "gebaeude_id": 80,
+        "typ": "Strom"
+    },
+    {
+        "id": "81-2025-6103",
+        "gebaeude_id": 81,
+        "typ": "Strom"
+    },
+    {
+        "id": "82-2025-5478",
+        "gebaeude_id": 82,
+        "typ": "Strom"
+    },
+    {
+        "id": "83-2025-9859",
+        "gebaeude_id": 83,
+        "typ": "Strom"
+    },
+    {
+        "id": "84-2025-6925",
+        "gebaeude_id": 84,
+        "typ": "Strom"
+    },
+    {
+        "id": "85-2025-4204",
+        "gebaeude_id": 85,
+        "typ": "Strom"
+    },
+    {
+        "id": "86-2025-4573",
+        "gebaeude_id": 86,
+        "typ": "Strom"
+    },
+    {
+        "id": "87-2025-9336",
+        "gebaeude_id": 87,
+        "typ": "Strom"
+    },
+    {
+        "id": "88-2025-2022",
+        "gebaeude_id": 88,
+        "typ": "Strom"
+    },
+    {
+        "id": "89-2025-4848",
+        "gebaeude_id": 89,
+        "typ": "Strom"
+    },
+    {
+        "id": "90-2025-7476",
+        "gebaeude_id": 90,
+        "typ": "Strom"
+    },
+    {
+        "id": "91-2025-1915",
+        "gebaeude_id": 91,
+        "typ": "Strom"
+    },
+    {
+        "id": "92-2025-8656",
+        "gebaeude_id": 92,
+        "typ": "Strom"
+    },
+    {
+        "id": "93-2025-6996",
+        "gebaeude_id": 93,
+        "typ": "Strom"
+    },
+    {
+        "id": "94-2025-6624",
+        "gebaeude_id": 94,
+        "typ": "Strom"
+    },
+    {
+        "id": "95-2025-3014",
+        "gebaeude_id": 95,
+        "typ": "Strom"
+    },
+    {
+        "id": "96-2025-2201",
+        "gebaeude_id": 96,
+        "typ": "Strom"
+    },
+    {
+        "id": "97-2025-4655",
+        "gebaeude_id": 97,
+        "typ": "Strom"
+    },
+    {
+        "id": "98-2025-9357",
+        "gebaeude_id": 98,
+        "typ": "Strom"
+    },
+    {
+        "id": "99-2025-1086",
+        "gebaeude_id": 99,
+        "typ": "Strom"
+    },
+    {
+        "id": "100-2025-5830",
+        "gebaeude_id": 100,
+        "typ": "Strom"
+    },
+    {
+        "id": "101-2025-2577",
+        "gebaeude_id": 101,
+        "typ": "Strom"
+    },
+    {
+        "id": "102-2025-8411",
+        "gebaeude_id": 102,
+        "typ": "Strom"
+    },
+    {
+        "id": "103-2025-8628",
+        "gebaeude_id": 103,
+        "typ": "Strom"
+    },
+    {
+        "id": "104-2025-1377",
+        "gebaeude_id": 104,
+        "typ": "Strom"
+    },
+    {
+        "id": "105-2025-8094",
+        "gebaeude_id": 105,
+        "typ": "Strom"
+    },
+    {
+        "id": "106-2025-2557",
+        "gebaeude_id": 106,
+        "typ": "Strom"
+    },
+    {
+        "id": "107-2025-9860",
+        "gebaeude_id": 107,
+        "typ": "Strom"
+    },
+    {
+        "id": "108-2025-2398",
+        "gebaeude_id": 108,
+        "typ": "Strom"
+    },
+    {
+        "id": "109-2025-9473",
+        "gebaeude_id": 109,
+        "typ": "Strom"
+    },
+    {
+        "id": "110-2025-7567",
+        "gebaeude_id": 110,
+        "typ": "Strom"
+    },
+    {
+        "id": "111-2025-4436",
+        "gebaeude_id": 111,
+        "typ": "Strom"
+    },
+    {
+        "id": "112-2025-9422",
+        "gebaeude_id": 112,
+        "typ": "Strom"
+    },
+    {
+        "id": "113-2025-4117",
+        "gebaeude_id": 113,
+        "typ": "Strom"
+    },
+    {
+        "id": "114-2025-4881",
+        "gebaeude_id": 114,
+        "typ": "Strom"
+    },
+    {
+        "id": "115-2025-8972",
+        "gebaeude_id": 115,
+        "typ": "Strom"
+    },
+    {
+        "id": "116-2025-3318",
+        "gebaeude_id": 116,
+        "typ": "Strom"
+    },
+    {
+        "id": "117-2025-3078",
+        "gebaeude_id": 117,
+        "typ": "Strom"
+    },
+    {
+        "id": "118-2025-1988",
+        "gebaeude_id": 118,
+        "typ": "Strom"
+    },
+    {
+        "id": "119-2025-9624",
+        "gebaeude_id": 119,
+        "typ": "Strom"
+    },
+    {
+        "id": "120-2025-5443",
+        "gebaeude_id": 120,
+        "typ": "Strom"
+    },
+    {
+        "id": "121-2025-3039",
+        "gebaeude_id": 121,
+        "typ": "Strom"
+    },
+    {
+        "id": "122-2025-6693",
+        "gebaeude_id": 122,
+        "typ": "Strom"
+    },
+    {
+        "id": "123-2025-1211",
+        "gebaeude_id": 123,
+        "typ": "Strom"
+    },
+    {
+        "id": "124-2025-1336",
+        "gebaeude_id": 124,
+        "typ": "Strom"
+    },
+    {
+        "id": "125-2025-9756",
+        "gebaeude_id": 125,
+        "typ": "Strom"
+    },
+    {
+        "id": "126-2025-3122",
+        "gebaeude_id": 126,
+        "typ": "Strom"
+    },
+    {
+        "id": "127-2025-4816",
+        "gebaeude_id": 127,
+        "typ": "Strom"
+    },
+    {
+        "id": "128-2025-4513",
+        "gebaeude_id": 128,
+        "typ": "Strom"
+    },
+    {
+        "id": "129-2025-4629",
+        "gebaeude_id": 129,
+        "typ": "Strom"
+    },
+    {
+        "id": "130-2025-4054",
+        "gebaeude_id": 130,
+        "typ": "Strom"
+    },
+    {
+        "id": "131-2025-7528",
+        "gebaeude_id": 131,
+        "typ": "Strom"
+    },
+    {
+        "id": "132-2025-5072",
+        "gebaeude_id": 132,
+        "typ": "Strom"
+    },
+    {
+        "id": "133-2025-9716",
+        "gebaeude_id": 133,
+        "typ": "Strom"
+    },
+    {
+        "id": "134-2025-3280",
+        "gebaeude_id": 134,
+        "typ": "Strom"
+    },
+    {
+        "id": "135-2025-2584",
+        "gebaeude_id": 135,
+        "typ": "Strom"
+    },
+    {
+        "id": "136-2025-9880",
+        "gebaeude_id": 136,
+        "typ": "Strom"
+    },
+    {
+        "id": "137-2025-1548",
+        "gebaeude_id": 137,
+        "typ": "Strom"
+    },
+    {
+        "id": "138-2025-3588",
+        "gebaeude_id": 138,
+        "typ": "Strom"
+    },
+    {
+        "id": "139-2025-7716",
+        "gebaeude_id": 139,
+        "typ": "Strom"
+    },
+    {
+        "id": "140-2025-7574",
+        "gebaeude_id": 140,
+        "typ": "Strom"
+    },
+    {
+        "id": "141-2025-2657",
+        "gebaeude_id": 141,
+        "typ": "Strom"
+    },
+    {
+        "id": "142-2025-4981",
+        "gebaeude_id": 142,
+        "typ": "Strom"
+    },
+    {
+        "id": "143-2025-9381",
+        "gebaeude_id": 143,
+        "typ": "Strom"
+    },
+    {
+        "id": "144-2025-8475",
+        "gebaeude_id": 144,
+        "typ": "Strom"
+    },
+    {
+        "id": "145-2025-6013",
+        "gebaeude_id": 145,
+        "typ": "Strom"
+    },
+    {
+        "id": "146-2025-2287",
+        "gebaeude_id": 146,
+        "typ": "Strom"
+    },
+    {
+        "id": "147-2025-7683",
+        "gebaeude_id": 147,
+        "typ": "Strom"
+    },
+    {
+        "id": "148-2025-1209",
+        "gebaeude_id": 148,
+        "typ": "Strom"
+    },
+    {
+        "id": "149-2025-3545",
+        "gebaeude_id": 149,
+        "typ": "Strom"
+    },
+    {
+        "id": "150-2025-3156",
+        "gebaeude_id": 150,
+        "typ": "Strom"
+    },
+    {
+        "id": "151-2025-4795",
+        "gebaeude_id": 151,
+        "typ": "Strom"
+    },
+    {
+        "id": "152-2025-7381",
+        "gebaeude_id": 152,
+        "typ": "Strom"
+    },
+    {
+        "id": "153-2025-3413",
+        "gebaeude_id": 153,
+        "typ": "Strom"
+    },
+    {
+        "id": "154-2025-5478",
+        "gebaeude_id": 154,
+        "typ": "Strom"
+    },
+    {
+        "id": "155-2025-9950",
+        "gebaeude_id": 155,
+        "typ": "Strom"
+    },
+    {
+        "id": "156-2025-6535",
+        "gebaeude_id": 156,
+        "typ": "Strom"
+    },
+    {
+        "id": "157-2025-6609",
+        "gebaeude_id": 157,
+        "typ": "Strom"
+    },
+    {
+        "id": "158-2025-2532",
+        "gebaeude_id": 158,
+        "typ": "Strom"
+    },
+    {
+        "id": "159-2025-9649",
+        "gebaeude_id": 159,
+        "typ": "Strom"
+    },
+    {
+        "id": "160-2025-4429",
+        "gebaeude_id": 160,
+        "typ": "Strom"
+    },
+    {
+        "id": "161-2025-2943",
+        "gebaeude_id": 161,
+        "typ": "Strom"
+    },
+    {
+        "id": "162-2025-2803",
+        "gebaeude_id": 162,
+        "typ": "Strom"
+    },
+    {
+        "id": "163-2025-5846",
+        "gebaeude_id": 163,
+        "typ": "Strom"
+    },
+    {
+        "id": "164-2025-2771",
+        "gebaeude_id": 164,
+        "typ": "Strom"
+    },
+    {
+        "id": "165-2025-2680",
+        "gebaeude_id": 165,
+        "typ": "Strom"
+    },
+    {
+        "id": "166-2025-4892",
+        "gebaeude_id": 166,
+        "typ": "Strom"
+    },
+    {
+        "id": "167-2025-4992",
+        "gebaeude_id": 167,
+        "typ": "Strom"
+    },
+    {
+        "id": "168-2025-4796",
+        "gebaeude_id": 168,
+        "typ": "Strom"
+    },
+    {
+        "id": "169-2025-6806",
+        "gebaeude_id": 169,
+        "typ": "Strom"
+    },
+    {
+        "id": "170-2025-5488",
+        "gebaeude_id": 170,
+        "typ": "Strom"
+    },
+    {
+        "id": "171-2025-8479",
+        "gebaeude_id": 171,
+        "typ": "Strom"
+    },
+    {
+        "id": "172-2025-7854",
+        "gebaeude_id": 172,
+        "typ": "Strom"
+    },
+    {
+        "id": "173-2025-2270",
+        "gebaeude_id": 173,
+        "typ": "Strom"
+    },
+    {
+        "id": "174-2025-6846",
+        "gebaeude_id": 174,
+        "typ": "Strom"
+    },
+    {
+        "id": "175-2025-2610",
+        "gebaeude_id": 175,
+        "typ": "Strom"
+    },
+    {
+        "id": "176-2025-6925",
+        "gebaeude_id": 176,
+        "typ": "Strom"
+    },
+    {
+        "id": "177-2025-8832",
+        "gebaeude_id": 177,
+        "typ": "Strom"
+    },
+    {
+        "id": "178-2025-2788",
+        "gebaeude_id": 178,
+        "typ": "Strom"
+    },
+    {
+        "id": "179-2025-7015",
+        "gebaeude_id": 179,
+        "typ": "Strom"
+    },
+    {
+        "id": "180-2025-8420",
+        "gebaeude_id": 180,
+        "typ": "Strom"
+    },
+    {
+        "id": "181-2025-4847",
+        "gebaeude_id": 181,
+        "typ": "Strom"
+    },
+    {
+        "id": "182-2025-3389",
+        "gebaeude_id": 182,
+        "typ": "Strom"
+    },
+    {
+        "id": "183-2025-5890",
+        "gebaeude_id": 183,
+        "typ": "Strom"
+    },
+    {
+        "id": "184-2025-8128",
+        "gebaeude_id": 184,
+        "typ": "Strom"
+    },
+    {
+        "id": "185-2025-8143",
+        "gebaeude_id": 185,
+        "typ": "Strom"
+    },
+    {
+        "id": "186-2025-9766",
+        "gebaeude_id": 186,
+        "typ": "Strom"
+    },
+    {
+        "id": "187-2025-4630",
+        "gebaeude_id": 187,
+        "typ": "Strom"
+    },
+    {
+        "id": "188-2025-8090",
+        "gebaeude_id": 188,
+        "typ": "Strom"
+    },
+    {
+        "id": "189-2025-5987",
+        "gebaeude_id": 189,
+        "typ": "Strom"
+    },
+    {
+        "id": "190-2025-4468",
+        "gebaeude_id": 190,
+        "typ": "Strom"
+    },
+    {
+        "id": "191-2025-5550",
+        "gebaeude_id": 191,
+        "typ": "Strom"
+    },
+    {
+        "id": "192-2025-3154",
+        "gebaeude_id": 192,
+        "typ": "Strom"
+    },
+    {
+        "id": "193-2025-3407",
+        "gebaeude_id": 193,
+        "typ": "Strom"
+    },
+    {
+        "id": "194-2025-3966",
+        "gebaeude_id": 194,
+        "typ": "Strom"
+    },
+    {
+        "id": "195-2025-9801",
+        "gebaeude_id": 195,
+        "typ": "Strom"
+    },
+    {
+        "id": "196-2025-5939",
+        "gebaeude_id": 196,
+        "typ": "Strom"
+    },
+    {
+        "id": "197-2025-7089",
+        "gebaeude_id": 197,
+        "typ": "Strom"
+    },
+    {
+        "id": "198-2025-9659",
+        "gebaeude_id": 198,
+        "typ": "Strom"
+    },
+    {
+        "id": "199-2025-2719",
+        "gebaeude_id": 199,
+        "typ": "Strom"
+    },
+    {
+        "id": "200-2025-4718",
+        "gebaeude_id": 200,
+        "typ": "Strom"
+    },
+    {
+        "id": "201-2025-1498",
+        "gebaeude_id": 201,
+        "typ": "Strom"
+    },
+    {
+        "id": "202-2025-2701",
+        "gebaeude_id": 202,
+        "typ": "Strom"
+    },
+    {
+        "id": "203-2025-5045",
+        "gebaeude_id": 203,
+        "typ": "Strom"
+    },
+    {
+        "id": "204-2025-8982",
+        "gebaeude_id": 204,
+        "typ": "Strom"
+    },
+    {
+        "id": "205-2025-3252",
+        "gebaeude_id": 205,
+        "typ": "Strom"
+    },
+    {
+        "id": "206-2025-9816",
+        "gebaeude_id": 206,
+        "typ": "Strom"
+    },
+    {
+        "id": "207-2025-9766",
+        "gebaeude_id": 207,
+        "typ": "Strom"
+    },
+    {
+        "id": "208-2025-9310",
+        "gebaeude_id": 208,
+        "typ": "Strom"
+    },
+    {
+        "id": "209-2025-2805",
+        "gebaeude_id": 209,
+        "typ": "Strom"
+    },
+    {
+        "id": "210-2025-1295",
+        "gebaeude_id": 210,
+        "typ": "Strom"
+    },
+    {
+        "id": "211-2025-9424",
+        "gebaeude_id": 211,
+        "typ": "Strom"
+    },
+    {
+        "id": "212-2025-3198",
+        "gebaeude_id": 212,
+        "typ": "Strom"
+    },
+    {
+        "id": "213-2025-5370",
+        "gebaeude_id": 213,
+        "typ": "Strom"
+    },
+    {
+        "id": "214-2025-2176",
+        "gebaeude_id": 214,
+        "typ": "Strom"
+    },
+    {
+        "id": "215-2025-7635",
+        "gebaeude_id": 215,
+        "typ": "Strom"
+    },
+    {
+        "id": "216-2025-7471",
+        "gebaeude_id": 216,
+        "typ": "Strom"
+    },
+    {
+        "id": "217-2025-8030",
+        "gebaeude_id": 217,
+        "typ": "Strom"
+    },
+    {
+        "id": "218-2025-8231",
+        "gebaeude_id": 218,
+        "typ": "Strom"
+    },
+    {
+        "id": "219-2025-5158",
+        "gebaeude_id": 219,
+        "typ": "Strom"
+    },
+    {
+        "id": "220-2025-6477",
+        "gebaeude_id": 220,
+        "typ": "Strom"
+    },
+    {
+        "id": "221-2025-7574",
+        "gebaeude_id": 221,
+        "typ": "Strom"
+    },
+    {
+        "id": "222-2025-8680",
+        "gebaeude_id": 222,
+        "typ": "Strom"
+    },
+    {
+        "id": "223-2025-9218",
+        "gebaeude_id": 223,
+        "typ": "Strom"
+    },
+    {
+        "id": "224-2025-6898",
+        "gebaeude_id": 224,
+        "typ": "Strom"
+    },
+    {
+        "id": "225-2025-9428",
+        "gebaeude_id": 225,
+        "typ": "Strom"
+    },
+    {
+        "id": "226-2025-5131",
+        "gebaeude_id": 226,
+        "typ": "Strom"
+    },
+    {
+        "id": "227-2025-9790",
+        "gebaeude_id": 227,
+        "typ": "Strom"
+    },
+    {
+        "id": "228-2025-3720",
+        "gebaeude_id": 228,
+        "typ": "Strom"
+    },
+    {
+        "id": "229-2025-3844",
+        "gebaeude_id": 229,
+        "typ": "Strom"
+    },
+    {
+        "id": "230-2025-2205",
+        "gebaeude_id": 230,
+        "typ": "Strom"
+    },
+    {
+        "id": "231-2025-7148",
+        "gebaeude_id": 231,
+        "typ": "Strom"
+    },
+    {
+        "id": "232-2025-3009",
+        "gebaeude_id": 232,
+        "typ": "Strom"
+    },
+    {
+        "id": "233-2025-6729",
+        "gebaeude_id": 233,
+        "typ": "Strom"
+    },
+    {
+        "id": "234-2025-9563",
+        "gebaeude_id": 234,
+        "typ": "Strom"
+    },
+    {
+        "id": "235-2025-6756",
+        "gebaeude_id": 235,
+        "typ": "Strom"
+    },
+    {
+        "id": "236-2025-5163",
+        "gebaeude_id": 236,
+        "typ": "Strom"
+    },
+    {
+        "id": "237-2025-5320",
+        "gebaeude_id": 237,
+        "typ": "Strom"
+    },
+    {
+        "id": "238-2025-2469",
+        "gebaeude_id": 238,
+        "typ": "Strom"
+    },
+    {
+        "id": "239-2025-2616",
+        "gebaeude_id": 239,
+        "typ": "Strom"
+    },
+    {
+        "id": "240-2025-5667",
+        "gebaeude_id": 240,
+        "typ": "Strom"
+    },
+    {
+        "id": "241-2025-9531",
+        "gebaeude_id": 241,
+        "typ": "Strom"
+    },
+    {
+        "id": "242-2025-2330",
+        "gebaeude_id": 242,
+        "typ": "Strom"
+    },
+    {
+        "id": "243-2025-2116",
+        "gebaeude_id": 243,
+        "typ": "Strom"
+    },
+    {
+        "id": "244-2025-1677",
+        "gebaeude_id": 244,
+        "typ": "Strom"
+    },
+    {
+        "id": "245-2025-6150",
+        "gebaeude_id": 245,
+        "typ": "Strom"
+    },
+    {
+        "id": "246-2025-4110",
+        "gebaeude_id": 246,
+        "typ": "Strom"
+    },
+    {
+        "id": "247-2025-4047",
+        "gebaeude_id": 247,
+        "typ": "Strom"
+    },
+    {
+        "id": "248-2025-2426",
+        "gebaeude_id": 248,
+        "typ": "Strom"
+    },
+    {
+        "id": "249-2025-1968",
+        "gebaeude_id": 249,
+        "typ": "Strom"
+    },
+    {
+        "id": "250-2025-9923",
+        "gebaeude_id": 250,
+        "typ": "Strom"
+    },
+    {
+        "id": "251-2025-4710",
+        "gebaeude_id": 251,
+        "typ": "Strom"
+    },
+    {
+        "id": "252-2025-8595",
+        "gebaeude_id": 252,
+        "typ": "Strom"
+    },
+    {
+        "id": "253-2025-6033",
+        "gebaeude_id": 253,
+        "typ": "Strom"
+    },
+    {
+        "id": "254-2025-1480",
+        "gebaeude_id": 254,
+        "typ": "Strom"
+    },
+    {
+        "id": "255-2025-7310",
+        "gebaeude_id": 255,
+        "typ": "Strom"
+    },
+    {
+        "id": "256-2025-5107",
+        "gebaeude_id": 256,
+        "typ": "Strom"
+    },
+    {
+        "id": "257-2025-4066",
+        "gebaeude_id": 257,
+        "typ": "Strom"
+    },
+    {
+        "id": "258-2025-7447",
+        "gebaeude_id": 258,
+        "typ": "Strom"
+    },
+    {
+        "id": "259-2025-1047",
+        "gebaeude_id": 259,
+        "typ": "Strom"
+    },
+    {
+        "id": "260-2025-2975",
+        "gebaeude_id": 260,
+        "typ": "Strom"
+    },
+    {
+        "id": "261-2025-8741",
+        "gebaeude_id": 261,
+        "typ": "Strom"
+    },
+    {
+        "id": "262-2025-8104",
+        "gebaeude_id": 262,
+        "typ": "Strom"
+    },
+    {
+        "id": "263-2025-7728",
+        "gebaeude_id": 263,
+        "typ": "Strom"
+    },
+    {
+        "id": "264-2025-5297",
+        "gebaeude_id": 264,
+        "typ": "Strom"
+    },
+    {
+        "id": "265-2025-3422",
+        "gebaeude_id": 265,
+        "typ": "Strom"
+    },
+    {
+        "id": "266-2025-1417",
+        "gebaeude_id": 266,
+        "typ": "Strom"
+    },
+    {
+        "id": "267-2025-5829",
+        "gebaeude_id": 267,
+        "typ": "Strom"
+    },
+    {
+        "id": "268-2025-9656",
+        "gebaeude_id": 268,
+        "typ": "Strom"
+    },
+    {
+        "id": "269-2025-7908",
+        "gebaeude_id": 269,
+        "typ": "Strom"
+    },
+    {
+        "id": "270-2025-8474",
+        "gebaeude_id": 270,
+        "typ": "Strom"
+    },
+    {
+        "id": "271-2025-3299",
+        "gebaeude_id": 271,
+        "typ": "Strom"
+    },
+    {
+        "id": "272-2025-3780",
+        "gebaeude_id": 272,
+        "typ": "Strom"
+    },
+    {
+        "id": "273-2025-2449",
+        "gebaeude_id": 273,
+        "typ": "Strom"
+    },
+    {
+        "id": "274-2025-5153",
+        "gebaeude_id": 274,
+        "typ": "Strom"
+    },
+    {
+        "id": "275-2025-1530",
+        "gebaeude_id": 275,
+        "typ": "Strom"
+    },
+    {
+        "id": "276-2025-4694",
+        "gebaeude_id": 276,
+        "typ": "Strom"
+    },
+    {
+        "id": "277-2025-3700",
+        "gebaeude_id": 277,
+        "typ": "Strom"
+    },
+    {
+        "id": "278-2025-8036",
+        "gebaeude_id": 278,
+        "typ": "Strom"
+    },
+    {
+        "id": "279-2025-8094",
+        "gebaeude_id": 279,
+        "typ": "Strom"
+    },
+    {
+        "id": "280-2025-8048",
+        "gebaeude_id": 280,
+        "typ": "Strom"
+    },
+    {
+        "id": "281-2025-5527",
+        "gebaeude_id": 281,
+        "typ": "Strom"
+    },
+    {
+        "id": "282-2025-2249",
+        "gebaeude_id": 282,
+        "typ": "Strom"
+    },
+    {
+        "id": "283-2025-4081",
+        "gebaeude_id": 283,
+        "typ": "Strom"
+    },
+    {
+        "id": "284-2025-9317",
+        "gebaeude_id": 284,
+        "typ": "Strom"
+    },
+    {
+        "id": "285-2025-3120",
+        "gebaeude_id": 285,
+        "typ": "Strom"
+    },
+    {
+        "id": "286-2025-9946",
+        "gebaeude_id": 286,
+        "typ": "Strom"
+    },
+    {
+        "id": "287-2025-5901",
+        "gebaeude_id": 287,
+        "typ": "Strom"
+    },
+    {
+        "id": "288-2025-9878",
+        "gebaeude_id": 288,
+        "typ": "Strom"
+    },
+    {
+        "id": "289-2025-2787",
+        "gebaeude_id": 289,
+        "typ": "Strom"
+    },
+    {
+        "id": "290-2025-9644",
+        "gebaeude_id": 290,
+        "typ": "Strom"
+    },
+    {
+        "id": "291-2025-3775",
+        "gebaeude_id": 291,
+        "typ": "Strom"
+    },
+    {
+        "id": "292-2025-2158",
+        "gebaeude_id": 292,
+        "typ": "Strom"
+    },
+    {
+        "id": "293-2025-1842",
+        "gebaeude_id": 293,
+        "typ": "Strom"
+    },
+    {
+        "id": "294-2025-1731",
+        "gebaeude_id": 294,
+        "typ": "Strom"
+    },
+    {
+        "id": "295-2025-9325",
+        "gebaeude_id": 295,
+        "typ": "Strom"
+    },
+    {
+        "id": "296-2025-6564",
+        "gebaeude_id": 296,
+        "typ": "Strom"
+    },
+    {
+        "id": "297-2025-7726",
+        "gebaeude_id": 297,
+        "typ": "Strom"
+    },
+    {
+        "id": "298-2025-6387",
+        "gebaeude_id": 298,
+        "typ": "Strom"
+    },
+    {
+        "id": "299-2025-7977",
+        "gebaeude_id": 299,
+        "typ": "Strom"
+    },
+    {
+        "id": "300-2025-2461",
+        "gebaeude_id": 300,
+        "typ": "Strom"
+    },
+    {
+        "id": "301-2025-9570",
+        "gebaeude_id": 301,
+        "typ": "Strom"
+    },
+    {
+        "id": "302-2025-1983",
+        "gebaeude_id": 302,
+        "typ": "Strom"
+    },
+    {
+        "id": "303-2025-2113",
+        "gebaeude_id": 303,
+        "typ": "Strom"
+    },
+    {
+        "id": "304-2025-2426",
+        "gebaeude_id": 304,
+        "typ": "Strom"
+    },
+    {
+        "id": "305-2025-3295",
+        "gebaeude_id": 305,
+        "typ": "Strom"
+    },
+    {
+        "id": "306-2025-4568",
+        "gebaeude_id": 306,
+        "typ": "Strom"
+    },
+    {
+        "id": "307-2025-9638",
+        "gebaeude_id": 307,
+        "typ": "Strom"
+    },
+    {
+        "id": "308-2025-4633",
+        "gebaeude_id": 308,
+        "typ": "Strom"
+    },
+    {
+        "id": "309-2025-7352",
+        "gebaeude_id": 309,
+        "typ": "Strom"
+    },
+    {
+        "id": "310-2025-1166",
+        "gebaeude_id": 310,
+        "typ": "Strom"
+    },
+    {
+        "id": "311-2025-7750",
+        "gebaeude_id": 311,
+        "typ": "Strom"
+    },
+    {
+        "id": "312-2025-1297",
+        "gebaeude_id": 312,
+        "typ": "Strom"
+    },
+    {
+        "id": "313-2025-1947",
+        "gebaeude_id": 313,
+        "typ": "Strom"
+    },
+    {
+        "id": "314-2025-7611",
+        "gebaeude_id": 314,
+        "typ": "Strom"
+    },
+    {
+        "id": "315-2025-5507",
+        "gebaeude_id": 315,
+        "typ": "Strom"
+    },
+    {
+        "id": "316-2025-2869",
+        "gebaeude_id": 316,
+        "typ": "Strom"
+    },
+    {
+        "id": "317-2025-5676",
+        "gebaeude_id": 317,
+        "typ": "Strom"
+    },
+    {
+        "id": "318-2025-7297",
+        "gebaeude_id": 318,
+        "typ": "Strom"
+    },
+    {
+        "id": "319-2025-5086",
+        "gebaeude_id": 319,
+        "typ": "Strom"
+    },
+    {
+        "id": "320-2025-5316",
+        "gebaeude_id": 320,
+        "typ": "Strom"
+    },
+    {
+        "id": "321-2025-8200",
+        "gebaeude_id": 321,
+        "typ": "Strom"
+    },
+    {
+        "id": "322-2025-8173",
+        "gebaeude_id": 322,
+        "typ": "Strom"
+    },
+    {
+        "id": "323-2025-7009",
+        "gebaeude_id": 323,
+        "typ": "Strom"
+    },
+    {
+        "id": "324-2025-5660",
+        "gebaeude_id": 324,
+        "typ": "Strom"
+    },
+    {
+        "id": "325-2025-6613",
+        "gebaeude_id": 325,
+        "typ": "Strom"
+    },
+    {
+        "id": "326-2025-8116",
+        "gebaeude_id": 326,
+        "typ": "Strom"
+    },
+    {
+        "id": "327-2025-2967",
+        "gebaeude_id": 327,
+        "typ": "Strom"
+    },
+    {
+        "id": "328-2025-2172",
+        "gebaeude_id": 328,
+        "typ": "Strom"
+    },
+    {
+        "id": "329-2025-5576",
+        "gebaeude_id": 329,
+        "typ": "Strom"
+    },
+    {
+        "id": "330-2025-5200",
+        "gebaeude_id": 330,
+        "typ": "Strom"
+    },
+    {
+        "id": "331-2025-7252",
+        "gebaeude_id": 331,
+        "typ": "Strom"
+    },
+    {
+        "id": "332-2025-5435",
+        "gebaeude_id": 332,
+        "typ": "Strom"
+    },
+    {
+        "id": "333-2025-2904",
+        "gebaeude_id": 333,
+        "typ": "Strom"
+    },
+    {
+        "id": "334-2025-4620",
+        "gebaeude_id": 334,
+        "typ": "Strom"
+    },
+    {
+        "id": "335-2025-9211",
+        "gebaeude_id": 335,
+        "typ": "Strom"
+    },
+    {
+        "id": "336-2025-2365",
+        "gebaeude_id": 336,
+        "typ": "Strom"
+    },
+    {
+        "id": "337-2025-8586",
+        "gebaeude_id": 337,
+        "typ": "Strom"
+    },
+    {
+        "id": "338-2025-2622",
+        "gebaeude_id": 338,
+        "typ": "Strom"
+    },
+    {
+        "id": "339-2025-1186",
+        "gebaeude_id": 339,
+        "typ": "Strom"
+    },
+    {
+        "id": "340-2025-8632",
+        "gebaeude_id": 340,
+        "typ": "Strom"
+    },
+    {
+        "id": "341-2025-8572",
+        "gebaeude_id": 341,
+        "typ": "Strom"
+    },
+    {
+        "id": "342-2025-8364",
+        "gebaeude_id": 342,
+        "typ": "Strom"
+    },
+    {
+        "id": "343-2025-8507",
+        "gebaeude_id": 343,
+        "typ": "Strom"
+    },
+    {
+        "id": "344-2025-9182",
+        "gebaeude_id": 344,
+        "typ": "Strom"
+    },
+    {
+        "id": "345-2025-4394",
+        "gebaeude_id": 345,
+        "typ": "Strom"
+    },
+    {
+        "id": "346-2025-1295",
+        "gebaeude_id": 346,
+        "typ": "Strom"
+    },
+    {
+        "id": "347-2025-6439",
+        "gebaeude_id": 347,
+        "typ": "Strom"
+    },
+    {
+        "id": "348-2025-2902",
+        "gebaeude_id": 348,
+        "typ": "Strom"
+    },
+    {
+        "id": "349-2025-2964",
+        "gebaeude_id": 349,
+        "typ": "Strom"
+    },
+    {
+        "id": "350-2025-4863",
+        "gebaeude_id": 350,
+        "typ": "Strom"
+    },
+    {
+        "id": "351-2025-5001",
+        "gebaeude_id": 351,
+        "typ": "Strom"
+    },
+    {
+        "id": "352-2025-3326",
+        "gebaeude_id": 352,
+        "typ": "Strom"
+    },
+    {
+        "id": "353-2025-3412",
+        "gebaeude_id": 353,
+        "typ": "Strom"
+    },
+    {
+        "id": "354-2025-5628",
+        "gebaeude_id": 354,
+        "typ": "Strom"
+    },
+    {
+        "id": "355-2025-2601",
+        "gebaeude_id": 355,
+        "typ": "Strom"
+    },
+    {
+        "id": "356-2025-9058",
+        "gebaeude_id": 356,
+        "typ": "Strom"
+    },
+    {
+        "id": "357-2025-6786",
+        "gebaeude_id": 357,
+        "typ": "Strom"
+    },
+    {
+        "id": "358-2025-6821",
+        "gebaeude_id": 358,
+        "typ": "Strom"
+    },
+    {
+        "id": "359-2025-9499",
+        "gebaeude_id": 359,
+        "typ": "Strom"
+    },
+    {
+        "id": "360-2025-8313",
+        "gebaeude_id": 360,
+        "typ": "Strom"
+    },
+    {
+        "id": "361-2025-9243",
+        "gebaeude_id": 361,
+        "typ": "Strom"
+    },
+    {
+        "id": "362-2025-1053",
+        "gebaeude_id": 362,
+        "typ": "Strom"
+    },
+    {
+        "id": "363-2025-9771",
+        "gebaeude_id": 363,
+        "typ": "Strom"
+    },
+    {
+        "id": "364-2025-3383",
+        "gebaeude_id": 364,
+        "typ": "Strom"
+    },
+    {
+        "id": "365-2025-4691",
+        "gebaeude_id": 365,
+        "typ": "Strom"
+    },
+    {
+        "id": "366-2025-2551",
+        "gebaeude_id": 366,
+        "typ": "Strom"
+    },
+    {
+        "id": "367-2025-2617",
+        "gebaeude_id": 367,
+        "typ": "Strom"
+    },
+    {
+        "id": "368-2025-9801",
+        "gebaeude_id": 368,
+        "typ": "Strom"
+    },
+    {
+        "id": "369-2025-1739",
+        "gebaeude_id": 369,
+        "typ": "Strom"
+    },
+    {
+        "id": "370-2025-8719",
+        "gebaeude_id": 370,
+        "typ": "Strom"
+    },
+    {
+        "id": "371-2025-4785",
+        "gebaeude_id": 371,
+        "typ": "Strom"
+    },
+    {
+        "id": "372-2025-6193",
+        "gebaeude_id": 372,
+        "typ": "Strom"
+    },
+    {
+        "id": "373-2025-7658",
+        "gebaeude_id": 373,
+        "typ": "Strom"
+    },
+    {
+        "id": "374-2025-3622",
+        "gebaeude_id": 374,
+        "typ": "Strom"
+    },
+    {
+        "id": "375-2025-8131",
+        "gebaeude_id": 375,
+        "typ": "Strom"
+    },
+    {
+        "id": "376-2025-8021",
+        "gebaeude_id": 376,
+        "typ": "Strom"
+    },
+    {
+        "id": "377-2025-6782",
+        "gebaeude_id": 377,
+        "typ": "Strom"
+    },
+    {
+        "id": "378-2025-6528",
+        "gebaeude_id": 378,
+        "typ": "Strom"
+    },
+    {
+        "id": "379-2025-1230",
+        "gebaeude_id": 379,
+        "typ": "Strom"
+    },
+    {
+        "id": "380-2025-4784",
+        "gebaeude_id": 380,
+        "typ": "Strom"
+    },
+    {
+        "id": "381-2025-7507",
+        "gebaeude_id": 381,
+        "typ": "Strom"
+    },
+    {
+        "id": "382-2025-4479",
+        "gebaeude_id": 382,
+        "typ": "Strom"
+    },
+    {
+        "id": "383-2025-3625",
+        "gebaeude_id": 383,
+        "typ": "Strom"
+    },
+    {
+        "id": "384-2025-9331",
+        "gebaeude_id": 384,
+        "typ": "Strom"
+    },
+    {
+        "id": "385-2025-9777",
+        "gebaeude_id": 385,
+        "typ": "Strom"
+    },
+    {
+        "id": "386-2025-2995",
+        "gebaeude_id": 386,
+        "typ": "Strom"
+    },
+    {
+        "id": "387-2025-5708",
+        "gebaeude_id": 387,
+        "typ": "Strom"
+    },
+    {
+        "id": "388-2025-7880",
+        "gebaeude_id": 388,
+        "typ": "Strom"
+    },
+    {
+        "id": "389-2025-6833",
+        "gebaeude_id": 389,
+        "typ": "Strom"
+    },
+    {
+        "id": "390-2025-2292",
+        "gebaeude_id": 390,
+        "typ": "Strom"
+    },
+    {
+        "id": "391-2025-2505",
+        "gebaeude_id": 391,
+        "typ": "Strom"
+    },
+    {
+        "id": "392-2025-9956",
+        "gebaeude_id": 392,
+        "typ": "Strom"
+    },
+    {
+        "id": "393-2025-3569",
+        "gebaeude_id": 393,
+        "typ": "Strom"
+    },
+    {
+        "id": "394-2025-4777",
+        "gebaeude_id": 394,
+        "typ": "Strom"
+    },
+    {
+        "id": "395-2025-6298",
+        "gebaeude_id": 395,
+        "typ": "Strom"
+    },
+    {
+        "id": "396-2025-1459",
+        "gebaeude_id": 396,
+        "typ": "Strom"
+    },
+    {
+        "id": "397-2025-8224",
+        "gebaeude_id": 397,
+        "typ": "Strom"
+    },
+    {
+        "id": "398-2025-7591",
+        "gebaeude_id": 398,
+        "typ": "Strom"
+    },
+    {
+        "id": "399-2025-8550",
+        "gebaeude_id": 399,
+        "typ": "Strom"
+    },
+    {
+        "id": "400-2025-4513",
+        "gebaeude_id": 400,
+        "typ": "Strom"
+    },
+    {
+        "id": "401-2025-9143",
+        "gebaeude_id": 401,
+        "typ": "Strom"
+    },
+    {
+        "id": "402-2025-4379",
+        "gebaeude_id": 402,
+        "typ": "Strom"
+    },
+    {
+        "id": "403-2025-1829",
+        "gebaeude_id": 403,
+        "typ": "Strom"
+    },
+    {
+        "id": "404-2025-5971",
+        "gebaeude_id": 404,
+        "typ": "Strom"
+    },
+    {
+        "id": "405-2025-5166",
+        "gebaeude_id": 405,
+        "typ": "Strom"
+    },
+    {
+        "id": "406-2025-1861",
+        "gebaeude_id": 406,
+        "typ": "Strom"
+    },
+    {
+        "id": "407-2025-3910",
+        "gebaeude_id": 407,
+        "typ": "Strom"
+    },
+    {
+        "id": "408-2025-8227",
+        "gebaeude_id": 408,
+        "typ": "Strom"
+    },
+    {
+        "id": "409-2025-7766",
+        "gebaeude_id": 409,
+        "typ": "Strom"
+    },
+    {
+        "id": "410-2025-9026",
+        "gebaeude_id": 410,
+        "typ": "Strom"
+    },
+    {
+        "id": "411-2025-1767",
+        "gebaeude_id": 411,
+        "typ": "Strom"
+    },
+    {
+        "id": "412-2025-6062",
+        "gebaeude_id": 412,
+        "typ": "Strom"
+    },
+    {
+        "id": "413-2025-4745",
+        "gebaeude_id": 413,
+        "typ": "Strom"
+    },
+    {
+        "id": "414-2025-3351",
+        "gebaeude_id": 414,
+        "typ": "Strom"
+    },
+    {
+        "id": "415-2025-9261",
+        "gebaeude_id": 415,
+        "typ": "Strom"
+    },
+    {
+        "id": "416-2025-5484",
+        "gebaeude_id": 416,
+        "typ": "Strom"
+    },
+    {
+        "id": "417-2025-9411",
+        "gebaeude_id": 417,
+        "typ": "Strom"
+    },
+    {
+        "id": "418-2025-2988",
+        "gebaeude_id": 418,
+        "typ": "Strom"
+    },
+    {
+        "id": "419-2025-7788",
+        "gebaeude_id": 419,
+        "typ": "Strom"
+    },
+    {
+        "id": "420-2025-3318",
+        "gebaeude_id": 420,
+        "typ": "Strom"
+    },
+    {
+        "id": "421-2025-1055",
+        "gebaeude_id": 421,
+        "typ": "Strom"
+    },
+    {
+        "id": "422-2025-6111",
+        "gebaeude_id": 422,
+        "typ": "Strom"
+    },
+    {
+        "id": "423-2025-7511",
+        "gebaeude_id": 423,
+        "typ": "Strom"
+    },
+    {
+        "id": "424-2025-7673",
+        "gebaeude_id": 424,
+        "typ": "Strom"
+    },
+    {
+        "id": "425-2025-4360",
+        "gebaeude_id": 425,
+        "typ": "Strom"
+    },
+    {
+        "id": "426-2025-4444",
+        "gebaeude_id": 426,
+        "typ": "Strom"
+    },
+    {
+        "id": "427-2025-4660",
+        "gebaeude_id": 427,
+        "typ": "Strom"
+    },
+    {
+        "id": "428-2025-8055",
+        "gebaeude_id": 428,
+        "typ": "Strom"
+    },
+    {
+        "id": "429-2025-6026",
+        "gebaeude_id": 429,
+        "typ": "Strom"
+    },
+    {
+        "id": "430-2025-4863",
+        "gebaeude_id": 430,
+        "typ": "Strom"
+    },
+    {
+        "id": "431-2025-2717",
+        "gebaeude_id": 431,
+        "typ": "Strom"
+    },
+    {
+        "id": "432-2025-1258",
+        "gebaeude_id": 432,
+        "typ": "Strom"
+    },
+    {
+        "id": "433-2025-1308",
+        "gebaeude_id": 433,
+        "typ": "Strom"
+    },
+    {
+        "id": "434-2025-9812",
+        "gebaeude_id": 434,
+        "typ": "Strom"
+    },
+    {
+        "id": "435-2025-9259",
+        "gebaeude_id": 435,
+        "typ": "Strom"
+    },
+    {
+        "id": "436-2025-2191",
+        "gebaeude_id": 436,
+        "typ": "Strom"
+    },
+    {
+        "id": "437-2025-4274",
+        "gebaeude_id": 437,
+        "typ": "Strom"
+    },
+    {
+        "id": "438-2025-2483",
+        "gebaeude_id": 438,
+        "typ": "Strom"
+    },
+    {
+        "id": "439-2025-6489",
+        "gebaeude_id": 439,
+        "typ": "Strom"
+    },
+    {
+        "id": "440-2025-9670",
+        "gebaeude_id": 440,
+        "typ": "Strom"
+    },
+    {
+        "id": "441-2025-6299",
+        "gebaeude_id": 441,
+        "typ": "Strom"
+    },
+    {
+        "id": "442-2025-5831",
+        "gebaeude_id": 442,
+        "typ": "Strom"
+    },
+    {
+        "id": "443-2025-9084",
+        "gebaeude_id": 443,
+        "typ": "Strom"
+    },
+    {
+        "id": "444-2025-3721",
+        "gebaeude_id": 444,
+        "typ": "Strom"
+    },
+    {
+        "id": "445-2025-9254",
+        "gebaeude_id": 445,
+        "typ": "Strom"
+    },
+    {
+        "id": "446-2025-5682",
+        "gebaeude_id": 446,
+        "typ": "Strom"
+    },
+    {
+        "id": "447-2025-1404",
+        "gebaeude_id": 447,
+        "typ": "Strom"
+    },
+    {
+        "id": "448-2025-8588",
+        "gebaeude_id": 448,
+        "typ": "Strom"
+    },
+    {
+        "id": "449-2025-8423",
+        "gebaeude_id": 449,
+        "typ": "Strom"
+    },
+    {
+        "id": "450-2025-5623",
+        "gebaeude_id": 450,
+        "typ": "Strom"
+    },
+    {
+        "id": "451-2025-9716",
+        "gebaeude_id": 451,
+        "typ": "Strom"
+    },
+    {
+        "id": "452-2025-4611",
+        "gebaeude_id": 452,
+        "typ": "Strom"
+    },
+    {
+        "id": "453-2025-1339",
+        "gebaeude_id": 453,
+        "typ": "Strom"
+    },
+    {
+        "id": "454-2025-3231",
+        "gebaeude_id": 454,
+        "typ": "Strom"
+    },
+    {
+        "id": "455-2025-4861",
+        "gebaeude_id": 455,
+        "typ": "Strom"
+    },
+    {
+        "id": "456-2025-5653",
+        "gebaeude_id": 456,
+        "typ": "Strom"
+    },
+    {
+        "id": "457-2025-1144",
+        "gebaeude_id": 457,
+        "typ": "Strom"
+    },
+    {
+        "id": "458-2025-7945",
+        "gebaeude_id": 458,
+        "typ": "Strom"
+    },
+    {
+        "id": "459-2025-7611",
+        "gebaeude_id": 459,
+        "typ": "Strom"
+    },
+    {
+        "id": "460-2025-1131",
+        "gebaeude_id": 460,
+        "typ": "Strom"
+    },
+    {
+        "id": "461-2025-3385",
+        "gebaeude_id": 461,
+        "typ": "Strom"
+    },
+    {
+        "id": "462-2025-7213",
+        "gebaeude_id": 462,
+        "typ": "Strom"
+    },
+    {
+        "id": "463-2025-8712",
+        "gebaeude_id": 463,
+        "typ": "Strom"
+    },
+    {
+        "id": "464-2025-7835",
+        "gebaeude_id": 464,
+        "typ": "Strom"
+    },
+    {
+        "id": "465-2025-1743",
+        "gebaeude_id": 465,
+        "typ": "Strom"
+    },
+    {
+        "id": "466-2025-2861",
+        "gebaeude_id": 466,
+        "typ": "Strom"
+    },
+    {
+        "id": "467-2025-7582",
+        "gebaeude_id": 467,
+        "typ": "Strom"
+    },
+    {
+        "id": "468-2025-2818",
+        "gebaeude_id": 468,
+        "typ": "Strom"
+    },
+    {
+        "id": "469-2025-1490",
+        "gebaeude_id": 469,
+        "typ": "Strom"
+    },
+    {
+        "id": "470-2025-6732",
+        "gebaeude_id": 470,
+        "typ": "Strom"
+    },
+    {
+        "id": "471-2025-2134",
+        "gebaeude_id": 471,
+        "typ": "Strom"
+    },
+    {
+        "id": "472-2025-3910",
+        "gebaeude_id": 472,
+        "typ": "Strom"
+    },
+    {
+        "id": "473-2025-8218",
+        "gebaeude_id": 473,
+        "typ": "Strom"
+    },
+    {
+        "id": "474-2025-2215",
+        "gebaeude_id": 474,
+        "typ": "Strom"
+    },
+    {
+        "id": "475-2025-1879",
+        "gebaeude_id": 475,
+        "typ": "Strom"
+    },
+    {
+        "id": "476-2025-5234",
+        "gebaeude_id": 476,
+        "typ": "Strom"
+    },
+    {
+        "id": "477-2025-2618",
+        "gebaeude_id": 477,
+        "typ": "Strom"
+    },
+    {
+        "id": "478-2025-9559",
+        "gebaeude_id": 478,
+        "typ": "Strom"
+    },
+    {
+        "id": "479-2025-5684",
+        "gebaeude_id": 479,
+        "typ": "Strom"
+    },
+    {
+        "id": "480-2025-6177",
+        "gebaeude_id": 480,
+        "typ": "Strom"
+    },
+    {
+        "id": "481-2025-3910",
+        "gebaeude_id": 481,
+        "typ": "Strom"
+    },
+    {
+        "id": "482-2025-1011",
+        "gebaeude_id": 482,
+        "typ": "Strom"
+    },
+    {
+        "id": "483-2025-3886",
+        "gebaeude_id": 483,
+        "typ": "Strom"
+    },
+    {
+        "id": "484-2025-1235",
+        "gebaeude_id": 484,
+        "typ": "Strom"
+    },
+    {
+        "id": "485-2025-8950",
+        "gebaeude_id": 485,
+        "typ": "Strom"
+    },
+    {
+        "id": "486-2025-5197",
+        "gebaeude_id": 486,
+        "typ": "Strom"
+    },
+    {
+        "id": "487-2025-2117",
+        "gebaeude_id": 487,
+        "typ": "Strom"
+    },
+    {
+        "id": "488-2025-6499",
+        "gebaeude_id": 488,
+        "typ": "Strom"
+    },
+    {
+        "id": "489-2025-4250",
+        "gebaeude_id": 489,
+        "typ": "Strom"
+    },
+    {
+        "id": "490-2025-6003",
+        "gebaeude_id": 490,
+        "typ": "Strom"
+    },
+    {
+        "id": "491-2025-9589",
+        "gebaeude_id": 491,
+        "typ": "Strom"
+    },
+    {
+        "id": "492-2025-5774",
+        "gebaeude_id": 492,
+        "typ": "Strom"
+    },
+    {
+        "id": "493-2025-8070",
+        "gebaeude_id": 493,
+        "typ": "Strom"
+    },
+    {
+        "id": "494-2025-7127",
+        "gebaeude_id": 494,
+        "typ": "Strom"
+    },
+    {
+        "id": "495-2025-6747",
+        "gebaeude_id": 495,
+        "typ": "Strom"
+    },
+    {
+        "id": "496-2025-7199",
+        "gebaeude_id": 496,
+        "typ": "Strom"
+    },
+    {
+        "id": "497-2025-4549",
+        "gebaeude_id": 497,
+        "typ": "Strom"
+    },
+    {
+        "id": "498-2025-1155",
+        "gebaeude_id": 498,
+        "typ": "Strom"
+    },
+    {
+        "id": "499-2025-2889",
+        "gebaeude_id": 499,
+        "typ": "Strom"
+    }
 ]

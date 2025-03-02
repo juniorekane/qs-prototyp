@@ -86,7 +86,7 @@ def gebaeude_details():
 @app.route("/zaehler")
 def zaehler_liste():
     zaehler = load_json(ZAEHLER_FILE)
-    return render_template("zaehler.html", zaehler=zaehler)
+    return jsonify(zaehler)
 
 # Neue Zähler-Ablesung hinzufügen
 @app.route("/ablesung", methods=["POST"])
@@ -129,33 +129,74 @@ def gebaeude_hinzufuegen():
 
     return render_template("gebaeude_hinzufuegen.html")
 
+def generiere_zaehler_id(gebaeude_id):
+    # 🔹 Zähler-ID generieren (Format: GEBÄUDE-ID-JAHR-RANDOM)
+    jahr = datetime.now().year
+    random_number = random.randint(1000, 9999)
+    return f"{gebaeude_id}-{jahr}-{random_number}"
+    
+
+
+
 # Neuen Zähler hinzufügen
-@app.route("/zaehler/hinzufuegen", methods=["GET", "POST"])
+@app.route("/zaehler/hinzufuegen", methods=["POST"])
 def zaehler_hinzufuegen():
     zaehler = load_json(ZAEHLER_FILE)
-    gebaeude = load_json(GEBAEUDE_FILE)  # Alle Gebäude laden
+    gebaeude = load_json(GEBAEUDE_FILE)
 
-    if request.method == "POST":
-        gebaeude_id = request.form["gebaeude_id"]  # Automatisch gesetzt durch Auswahl
-        typ = request.form["typ"]
+    # 🔍 JSON- oder Formulardaten abrufen
+    if request.is_json:
+        data = request.get_json()
+    else:
+        data = request.form.to_dict()
 
-        # Automatische Zähler-ID generieren (Format: GEBÄUDE-ID-JAHR-RANDOM)
+    print("🔍 Empfangene Daten zähler:", data)  # Debugging
+
+    try:
+        gebaeude_id = data.get("gebaeude_id")
+        typ = data.get("typ")
+        
+        if not gebaeude_id or not typ:
+            return jsonify({"error": "Fehlende Eingaben"}), 400
+
+        # 🔹 Validierung: Gebäude muss existieren
+        if not any(g["id"] == int(gebaeude_id) for g in gebaeude):
+            return jsonify({"error": "Das angegebene Gebäude existiert nicht!"}), 400
+
+        # 🔹 Zähler-ID generieren (Format: GEBÄUDE-ID-JAHR-RANDOM)
         jahr = datetime.now().year
         random_number = random.randint(1000, 9999)
-        zaehler_id = f"{gebaeude_id}-{jahr}-{random_number}"
+        zaehler_id = generiere_zaehler_id(gebaeude_id)
 
+        # 🔹 Validierung: Zähler-ID muss genau 14 Zeichen lang sein (z. B. "1-2025-1234")
+        if len(zaehler_id) < 8:
+            return jsonify({"error": f"Zähler-ID muss genau 14 Zeichen haben! {zaehler_id}"}), 400
+
+        # 🔹 Validierung: Zählertyp darf nur Buchstaben enthalten
+        if not re.match(r"^[A-Za-zäöüÄÖÜß\s-]+$", typ):
+            return jsonify({"error": "Zählertyp darf nur Buchstaben enthalten!"}), 400
+
+        # 🔹 Sicherstellen, dass keine doppelte Zähler-ID existiert
+        if any(z["id"] == zaehler_id for z in zaehler):
+            return jsonify({"error": "Zähler-ID existiert bereits!"}), 400
+
+        # 🔹 Neuen Zähler speichern
         neues_zaehler = {
             "id": zaehler_id,
             "gebaeude_id": int(gebaeude_id),
             "typ": typ
         }
-
         zaehler.append(neues_zaehler)
         save_json(ZAEHLER_FILE, zaehler)
 
-        return render_template("zaehler.html", zaehler=zaehler, success=f"Zähler {zaehler_id} erfolgreich hinzugefügt!")
+        if request.is_json:
+            return jsonify({"message": f"Zähler {zaehler_id} erfolgreich hinzugefügt!"}), 201
+        else:
+            return render_template("zaehler.html", zaehler=zaehler, success=f"Zähler {zaehler_id} erfolgreich hinzugefügt!")
 
-    return render_template("zaehler_hinzufuegen.html", gebaeude=gebaeude)
+    except ValueError:
+        return jsonify({"error": "Ungültige Eingaben"}), 400
+
 
 
 
@@ -174,37 +215,68 @@ def zaehlertypen_hinzufuegen():
 
 
 # Ablesung hinzufügen
-@app.route("/ablesung/hinzufuegen", methods=["GET", "POST"])
+@app.route("/ablesung/hinzufuegen", methods=["POST"])
 def ablesung_hinzufuegen():
     ablesungen = load_json(ABLESUNG_FILE)
     zaehler = load_json(ZAEHLER_FILE)
-    gebaeude = load_json(GEBAEUDE_FILE)  # Alle Gebäude laden
+    gebaeude = load_json(GEBAEUDE_FILE)
 
-    if request.method == "POST":
-        gebaeude_id = request.form["gebaeude_id"]
-        zaehler_id = request.form["zaehler_id"]
-        datum = request.form["datum"]
-        wert = int(request.form["wert"])
-        ableser = request.form["ableser"] or "Unbekannt"
+    # JSON-Daten aus der Anfrage abrufen
+    data = request.get_json()
+    if not data:
+        return jsonify({"error": "Fehlende oder ungültige JSON-Daten"}), 400
 
-        # Prüfen, ob der gewählte Zähler wirklich zu diesem Gebäude gehört
-        if not any(z["id"] == zaehler_id and str(z["gebaeude_id"]) == gebaeude_id for z in zaehler):
-            return render_template("ablesung_hinzufuegen.html", gebaeude=gebaeude, zaehler=zaehler, error="Ungültiger Zähler für dieses Gebäude!")
+    print("🔍 Empfangene JSON-Daten:", data)
 
-        # Neue Ablesung speichern
-        neue_ablesung = {
-            "gebaeude_id": gebaeude_id,
-            "zaehler_id": zaehler_id,
-            "datum": datum,
-            "wert": wert,
-            "ableser": ableser
-        }
-        ablesungen.append(neue_ablesung)
-        save_json(ABLESUNG_FILE, ablesungen)
+    try:
+        gebaeude_id = data.get("gebaeude_id")
+        zaehler_id = data.get("zaehler_id")
+        datum = data.get("datum")
+        wert = int(data.get("wert"))
+        ableser = data.get("ableser", "Unbekannt")
 
-        return render_template("ablesung.html", ablesungen=ablesungen, success="Ablesung erfolgreich gespeichert!")
+        if not gebaeude_id or not zaehler_id or not datum or wert is None:
+            return jsonify({"error": "Fehlende Eingaben"}), 400
+        
+        heutiges_datum = datetime.now().date()
+        eingabe_datum = datetime.strptime(datum, "%Y-%m-%d").date()
 
-    return render_template("ablesung_hinzufuegen.html", gebaeude=gebaeude, zaehler=zaehler)
+        print(heutiges_datum)
+
+        if eingabe_datum < heutiges_datum:
+            return jsonify({"error": "Datum darf nicht in der Vergangenheit liegen!"}), 400
+
+
+    except ValueError:
+        return jsonify({"error": "Ungültiger Zahlenwert für Ablesung"}), 400
+
+    # Prüfen, ob der gewählte Zähler wirklich zu diesem Gebäude gehört
+    if not any(z["id"] == zaehler_id and str(z["gebaeude_id"]) == str(gebaeude_id) for z in zaehler):
+        return jsonify({"error": "Ungueltiger Zaehler fuer dieses Gebaeude!"}), 400
+
+    # Validierung des Ablesewerts
+    if wert < 0:
+        return jsonify({"error": "Ungueltiger Ablesewert"}), 400
+
+    # Überprüfung auf vorherige Ablesewerte
+    vorherige_ablesungen = [a for a in ablesungen if a["zaehler_id"] == zaehler_id]
+    if vorherige_ablesungen:
+        letzter_wert = max(a["wert"] for a in vorherige_ablesungen)
+        if wert < letzter_wert:
+            return jsonify({"error": "Neuer Ablesewert muss groesser sein als der vorherige"}), 400
+
+    # Ablesung speichern
+    neue_ablesung = {
+        "gebaeude_id": gebaeude_id,
+        "zaehler_id": zaehler_id,
+        "datum": datum,
+        "wert": wert,
+        "ableser": ableser
+    }
+    ablesungen.append(neue_ablesung)
+    save_json(ABLESUNG_FILE, ablesungen)
+
+    return jsonify({"message": "Ablesung erfolgreich gespeichert", "ableser": ableser}), 201
 
 
 #Ablesung anzeigen
@@ -362,6 +434,54 @@ def verbrauchsanzeige():
         current_date=current_date,
         no_data=False
     )
+
+@app.route("/verbrauch/json", methods=["GET"])
+def verbrauch_json():
+    ablesungen = load_json(ABLESUNG_FILE)
+    gebaeude = load_json(GEBAEUDE_FILE)
+
+    selected_gebaeude = request.args.get("gebaeude_id")
+
+    if not selected_gebaeude:
+        return jsonify({"error": "Keine Gebäude-ID übergeben"}), 400
+
+    try:
+        selected_gebaeude = int(selected_gebaeude)
+    except ValueError:
+        return jsonify({"error": "Ungültige Gebäude-ID"}), 400
+
+    gebaeude_name = next((g["name"] for g in gebaeude if g["id"] == selected_gebaeude), f"Gebäude {selected_gebaeude}")
+
+    # Zeitraum: Letzte 12 Monate berechnen
+    end_date = datetime.now()
+    start_date = end_date - timedelta(days=365)
+
+    gefilterte_ablesungen = [
+        a for a in ablesungen
+        if str(a.get("gebaeude_id", "")) == str(selected_gebaeude)
+        and start_date <= datetime.strptime(a["datum"], "%Y-%m-%d") <= end_date
+    ]
+
+    if not gefilterte_ablesungen:
+        return jsonify({"message": "Keine Verbrauchsdaten für dieses Gebäude"}), 200
+
+    return jsonify({
+        "gebaeude_id": selected_gebaeude,
+        "gebaeude_name": gebaeude_name,
+        "ablesungen": gefilterte_ablesungen
+    }), 200
+
+@app.route("/zaehler/suche/json", methods=["GET"])
+def zaehler_suche_json():
+    zaehler = load_json(ZAEHLER_FILE)
+    suchbegriff = request.args.get("query", "").strip().lower()
+
+    if suchbegriff:
+        gefundene_zaehler = [z for z in zaehler if suchbegriff in z["id"].lower() or suchbegriff in z["typ"].lower()]
+    else:
+        gefundene_zaehler = zaehler
+
+    return jsonify(gefundene_zaehler), 200
 
 
 if __name__ == "__main__":
